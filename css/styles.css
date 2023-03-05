@@ -777,6 +777,14 @@ justify-content: center;
 margin-left: auto;
 padding: 0;
 margin-bottom: 24px;
+transition-property: background-color, fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover {
+background: #404BBF;
+fill: #FFFFFF;
 }
 
 .is-hidden {
@@ -792,7 +800,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-bottom: 34px;
+margin-bottom: 16px;
 }
     
 .input-text {
@@ -906,10 +914,6 @@ background-position: center;
 border-color: #404BBF;
 }
 
-.modal-button:hover {
-background: #404BBF;
-}
-
 .modal-button {
 min-width: 169px;
 height: 56px;
@@ -931,14 +935,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .div-modal-button {
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .modal-link {
-    display: flex;
-    margin-left: 2px;
-    color: #4D5AE5;
+display: flex;
+margin-left: 2px;
+color: #4D5AE5;
 }
 
 
