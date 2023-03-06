@@ -934,6 +934,10 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button:hover {
+    background: #404BBF;
+}
+
 .div-modal-button {
 display: flex;
 justify-content: center;
