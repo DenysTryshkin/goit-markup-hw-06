@@ -50,28 +50,4 @@
 
 **`«C5»`** Виконано оформлення мобільного меню.
 
-# Web Studio
-
-![Web Page](./assets/screencapture1-d.png)
-
----
-
-![Web Page](./assets/screencapture2-d.png)
-
----
-
-![Web Page](./assets/screencapture1-t.png)
-
----
-
-![Web Page](./assets/screencapture2-t.png)
-
----
-
-![Web Page](./assets/screencapture1-m.png)
-
----
-
-![Web Page](./assets/screencapture2-m.png)
-
 ---
