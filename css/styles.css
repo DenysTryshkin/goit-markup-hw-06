@@ -1111,14 +1111,11 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     width: 288px;
     max-height: clamp(calc(100% - 17px), calc(100% - 17px), 623px);
     overflow-y: auto;
-
     border-radius: 4px;
     padding: 72px 16px 24px;
-
     background-color: rgb(var(--cl-dairy));
     box-shadow: 0px 2px 1px 0px rgba(var(--cl-black), 0.2),
         0px 1px 3px 0px rgba(var(--cl-black), 0.12),
