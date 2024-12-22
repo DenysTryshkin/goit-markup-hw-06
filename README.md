@@ -1,118 +1,91 @@
-## **Homework. Topic 5: Forms and Tables**
+# Homework. Topic 6. Responsive Design
 
-- Create a repository named `goit-markup-hw-05`.  
-- Clone the created repository and copy files from the previous assignment into it.  
-- Add markup and styling for forms from the layout for homework #5.  
-- Configure GitHub Pages and add a link to the live page in the **About** section of the GitHub repository.  
+1. Create a repository named `goit-markup-hw-06`.
+2. Clone the created repository and copy the files from the previous homework into it.
+3. Implement responsive layout for all elements of the page for Homework #6.
+4. Configure GitHub Pages and add a link to the live page in the About section of the GitHub repository.
 
-### **Acceptance Criteria by Mentor**
+## Acceptance Criteria for the Mentor
 
-#### **Project**
-- **A1**: All styles are written in a single `styles.css` file located in the `css` folder.  
-- **A2**: The source code is formatted using **Prettier**.  
-- **A3**: All images and text content are taken from the layout.  
-- **A4**: A style normalizer `modern-normalize` is connected.  
-- **A5**: Code follows best practices.  
+### Project
+- **A1**: When viewing the page on any device with a width of 320px or more, there is no horizontal scroll bar.
+- **A2**: Source code is formatted using Prettier.
+- **A3**: All images and text content are taken from the design mockup.
+- **A4**: Style normalizer `modern-normalize` is connected.
+- **A5**: Code is written according to the style guide.
 
-#### **Modal Window**
-- **B1**: The markup and styling of the backdrop (a dark translucent background) for the modal window are completed.  
-- **B2**: The backdrop covers 100% of the viewport height and width and is fixed within it.  
-- **B3**: The modal window markup and styling are completed.  
-- **B4**: The modal window is vertically and horizontally centered within the backdrop.  
-- **B5**: The close button of the modal window is styled and positioned in the top-right corner.  
-- **B6**: Initially, the modal window and backdrop are hidden.  
-- **B7**: Adding the class `is-open` to the backdrop element makes the modal window and backdrop visible.  
+### Responsiveness
+- **B1**: All pages have a `<meta>` viewport tag in the `<head>` block.
+- **B2**: The layout is implemented for three breakpoints: 320px, 768px, and 1158px.
+- **B3**: All background and content raster images are responsive and support x1 and x2 screen densities.
+- **B4**: Media feature `min-resolution` is used for responsive background images.
+- **B5**: The Mobile First approach and `min-width` media feature are used when writing styles.
+- **B6**: Styles required only within a specific range are enclosed in media queries `(min-width:) and (max-width:)` or only `(max-width:)`.
+- **B7**: There is no unnecessary duplication of styles in media queries.
 
-#### **Forms**
-- **C1**: HTML markup for all layout elements is completed.  
-- **C2**: Tags are used according to their semantic meaning.  
-- **C3**: Markup for the subscription form in the footer is completed.  
-- **C4**: Markup for the application form in the modal window is completed.  
-- **C5**: All inputs in the forms have the `name` attribute.  
-- **C6**: The `name` attribute values are descriptive and clearly characterize the purpose of each form field.  
-- **C7**: Each input has an associated `<label>` element.  
-- **C8**: Inputs with text placeholders in the layout have the `placeholder` attribute.  
-- **C9**: Submit buttons in forms have the attribute `type="submit"`.  
-- **C10**: All new icons from the forms are added to the SVG sprite `icons.svg`.  
+### Mobile Menu
+- **C1**: The markup of all elements of the mobile menu is completed.
+- **C2**: Styling of all elements of the mobile menu is completed.
+- **C3**: The menu width corresponds to the design.
+- **C4**: The menu occupies the entire viewport height.
+- **C5**: The menu is hidden by default.
+- **C6**: Adding the `is-open` class to the menu element makes it visible.
 
-#### **Styling**
-- **D1**: Styling of the subscription form elements in the footer is completed.  
-- **D2**: Styling of the application form elements in the modal window is completed.  
-- **D3**: When an input gains focus, its border and icon change color as shown in the layout.  
-- **D4**: The original checkbox for accepting the license agreement in the application form is hidden.  
-- **D5**: The custom styling for the checkbox, including a tick icon from the SVG sprite, is implemented.  
-- **D6**: Transitions for all hover and focus effects (color, background, shadow) are implemented with a duration of 250ms and a timing function `cubic-bezier(0.4, 0, 0.2, 1)`.  
+### Evaluation Format
+- **Pass / Fail**
 
----
+### Submission Format
+1. Link to the live page (GitHub Pages)
+2. Link to the repository files
+3. Attached ZIP file of the repository
 
-### **Evaluation Format**
-- Score: 0 to 100.  
+### IMPORTANT
+Review the [Instruction on Uploading Work Files from the Repository to GitHub](#).
 
-### **Submission Format**
-- A link to the live page (GitHub Pages).  
-- A link to the repository files.  
-- A zip file containing the repository.  
+_______
 
-### **Important**
-- Review the **Instruction** on uploading the working file from the repository to GitHub.
+# Домашня робота. Тема 6. Адаптивний дизайн
 
----
+1. Створи репозиторій `goit-markup-hw-06`.
+2. Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.
+3. Виконай верстку адаптивної версії всіх елементів сторінки домашнього завдання #6.
+4. Налаштуй GitHub Pages і додай посилання на живу сторінку в секцію About GitHub-репозиторія.
 
-## **Домашня робота. Тема 5: Форми і таблиці**
+## Критерії приймання роботи наставником
 
-- Створи репозиторій `goit-markup-hw-05`.  
-- Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.  
-- Додай розмітку і оформлення форм макета домашнього завдання #5.  
-- Налаштуй GitHub Pages і додай посилання на живу сторінку в секцію **About** GitHub-репозиторія.  
+### Проєкт
+- **A1**: При перегляді сторінки на будь-якому пристрої шириною від 320px, не з'являється горизонтальна смуга прокручування.
+- **A2**: Вихідний код відформатований за допомогою Prettier.
+- **A3**: Всі зображення та текстовий контент взяті з макета.
+- **A4**: Підключений нормалізатор стилів `modern-normalize`.
+- **A5**: Код написаний з дотриманням настанови.
 
-### **Критерії приймання роботи наставником**
+### Респонсивність
+- **B1**: У всіх сторінок в блоці `<head>` є метатег viewport.
+- **B2**: Верстка виконана щодо трьох точок перелому: 320px, 768px і 1158px.
+- **B3**: Всі фонові і контентні растрові зображення — респонсивні і підтримують екрани щільністю x1 и x2.
+- **B4**: Для респонсивних фонових зображень використані медіа-функція `min-resolution`.
+- **B5**: При написанні стилів використаний Mobile First підхід і медіа-функція `min-width`.
+- **B6**: Стилі, необхідні тільки у певному проміжку, закриті в медіа-запити `(min-width:) and (max-width:)` або тільки `(max-width:)`.
+- **B7**: В медіа-запитах відсутнє зайве дублювання стилів.
 
-#### **Проєкт**
-- **A1**: Всі стилі написані в одному файлі `styles.css`, який знаходиться в папці `css`.  
-- **A2**: Вихідний код відформатований за допомогою **Prettier**.  
-- **A3**: Всі зображення та текстовий контент взяті з макета.  
-- **A4**: Підключений нормалізатор стилів `modern-normalize`.  
-- **A5**: Код написаний з дотриманням настанови.  
+### Мобільне меню
+- **C1**: Виконана розмітка всіх елементів мобільного меню.
+- **C2**: Виконано оформлення всіх елементів мобільного меню.
+- **C3**: Ширина меню відповідає макету.
+- **C4**: За висотою меню займає весь в'юпорт.
+- **C5**: Спочатку меню приховано.
+- **C6**: Якщо додати на елемент меню клас `is-open`, воно з'являється.
 
-#### **Модальне вікно**
-- **B1**: Виконана розмітка і оформлення «бекдропа» (темного напівпрозорого фону) модального вікна.  
-- **B2**: «Бекдроп» заповнює 100% висоти і ширини в'юпорту браузера і фіксований в ньому.  
-- **B3**: Виконана розмітка і оформлення модального вікна.  
-- **B4**: Модальне вікно вертикально і горизонтально спозиційоване посередині бекдропа.  
-- **B5**: Виконана розмітка і оформлення кнопки закриття модального вікна у верхньому правому куті.  
-- **B6**: Спочатку модальне вікно і бекдроп приховані.  
-- **B7**: Якщо додати на елемент бекдроп клас `is-open` — з'являється бекдроп і модальне вікно.  
+### Формат оцінювання
+- **Залік / Незалік**
 
-#### **Форми**
-- **C1**: Виконана HTML-розмітка всіх елементів макета.  
-- **C2**: Теги використані відповідно до їх семантичного змісту.  
-- **C3**: Виконана розмітка форми підписки на розсилання і всіх її елементів у футері.  
-- **C4**: Виконана розмітка форми заявки та всіх її елементів в модальному вікні.  
-- **C5**: У всіх інпутів у формах заданий атрибут `name`.  
-- **C6**: Значення атрибута `name` описові, що точно характеризують, для чого це поле форми.  
-- **C7**: У всіх інпутів є пов'язаний елемент `<label>`.  
-- **C8**: Інпутам заданий атрибут `placeholder`, якщо для нього в макеті є текст-підказка.  
-- **C9**: Кнопкам «відправлення» форм заданий атрибут `type="submit"`.  
-- **C10**: Всі нові іконки з форм додані в SVG-спрайт `icons.svg`.  
+### Формат здачі
+1. Посилання на живу сторінку (GitHub Pages)
+2. Посилання на похідні файли в репозиторії
+3. Прикріплений файл репозиторію у форматі ZIP
 
-#### **Оформлення**
-- **D1**: Виконано оформлення елементів форми підписки на розсилання у футері.  
-- **D2**: Виконано оформлення елементів форми заявки у модальному вікні.  
-- **D3**: При отриманні інпутом фокусу, його рамка та іконка змінюють колір (як показано на макеті).  
-- **D4**: Оригінальний чекбокс про прийняття ліцензійної угоди у формі заявки прихований.  
-- **D5**: Оформлення «чекбокса» про прийняття ліцензійної угоди зроблено вручну, за допомогою векторного зображення галочки з SVG-спрайту.  
-- **D6**: Для всіх ефектів ховера і фокуса (колір, фон, тінь) зроблені переходи: час — 250ms, функція розподілу часу — `cubic-bezier(0.4, 0, 0.2, 1)`.  
+### ВАЖЛИВО
+Переглянь [Інструкцію щодо завантаження робочого файлу з репозиторію на Github](#).
 
----
-
-### **Формат оцінювання**
-- Оцінка: від 0 до 100.  
-
-### **Формат здачі**
-- Посилання на живу сторінку (GitHub Pages).  
-- Посилання на файли в репозиторії.  
-- Файл репозиторію у форматі zip.  
-
-### **ВАЖЛИВО**
-- Переглянь **Інструкцію** щодо завантаження робочого файлу з репозиторію на GitHub.
 
